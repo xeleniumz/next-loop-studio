@@ -1,7 +1,8 @@
 import Image from "next/image";
+import HeroSection from "@/components/shared/section/HeroSection";
 
 export default function Home() {
   return (
-   <div><h3 className="text-3xl">Simple Tailwind Starter</h3></div>
+    <HeroSection />
   );
 }
